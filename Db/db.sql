@@ -98,3 +98,31 @@ create table income_detail(
 	FOREIGN KEY (idincome) REFERENCES income (idincome) ON DELETE CASCADE,
 	FOREIGN KEY (idarticle) REFERENCES article (idarticle)
 );
+
+--Tabla venta
+create table sale(
+	idsale integer primary key identity,
+	idclient integer not null,
+	iduser integer not null,
+	invoice_series varchar(7) null,
+	invoice_number varchar (10) not null,
+	date_hour datetime not null,
+	tax decimal (4,2) not null,
+	total decimal (11,2) not null,
+	status_sale varchar(20) not null,
+	FOREIGN KEY (idclient) REFERENCES person (idperson),
+	FOREIGN KEY (iduser) REFERENCES users (iduser)
+);
+
+
+--Tabla detalle_venta
+create table sale_detail(
+	idsale_detail integer primary key identity,
+	idsale integer not null,
+	idarticle integer not null,
+	quantity integer not null,
+	price decimal(11,2) not null,
+	discount decimal(11,2) not null,
+	FOREIGN KEY (idsale) REFERENCES sale (idsale) ON DELETE CASCADE,
+	FOREIGN KEY (idarticle) REFERENCES article (idarticle)
+);

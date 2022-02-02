@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2911baf8-f644-463c-b5e4-64b137835eaf": {
+      "ProjectGuid": "2911baf8-f644-463c-b5e4-64b137835eaf",
+      "DisplayName": "Entidades",
+      "ColorIndex": 0
+    },
+    "9d08e213-190a-4210-a7df-9cf9b1f7a3ac": {
+      "ProjectGuid": "9d08e213-190a-4210-a7df-9cf9b1f7a3ac",
+      "DisplayName": "Datos",
+      "ColorIndex": 1
+    },
+    "8bb0d42f-a0ba-4e55-9a30-00e09dc8d2b4": {
+      "ProjectGuid": "8bb0d42f-a0ba-4e55-9a30-00e09dc8d2b4",
+      "DisplayName": "SistemaWeb",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
