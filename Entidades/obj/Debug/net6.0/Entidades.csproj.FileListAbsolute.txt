@@ -1,0 +1,12 @@
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\bin\Debug\net6.0\ref\Entidades.dll
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\INFORMATICA\source\repos\Sistema1\Entidades\obj\Debug\net6.0\Entidades.pdb
