@@ -1,7 +1,14 @@
+using Datos;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<DbContexSistema>(opciones =>
+    opciones.UseSqlServer(builder.Configuration.GetConnectionString("Conexion"))
+
+    );
 
 var app = builder.Build();
 

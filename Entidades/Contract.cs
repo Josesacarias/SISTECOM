@@ -8,7 +8,7 @@ namespace Entidades
 {
     public class Contract
     {
-        public int Id { get; set; } 
+        public int Idcontract { get; set; } 
         public string SerialCodeEquipment { get; set; }
         public string FirstName { get; set; }
         public string SecondName { get; set; }
@@ -28,7 +28,7 @@ namespace Entidades
         public string CellPhone { get; set; }
         public string PhoneHome { get; set; }
         public string CounterNumber { get; set; }
-        public string Service_Type { get; set; }
+        public string ServiceType { get; set; }
 
 
     }
